@@ -1,0 +1,58 @@
+﻿# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+secrets/
+credentials/
+
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node.js and frontend builds
+node_modules/
+dist/
+frontend/dist/
+npm-debug.log*
+
+# Java build output
+**/target/
+*.class
+
+# Local databases and vector storage
+chroma/
+chroma_db/
+chroma_data/
+vector_store/
+**/.chroma/
+*.sqlite
+*.sqlite3
+
+# Logs and operating-system files
+*.log
+.DS_Store
+Thumbs.db
+
+# Local ChromaDB indexes - rebuild from source PDFs
+**/chromadb/
+**/chroma_db/
+**/chroma_data/
+**/.chroma/
+
+# SQLite database files
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+
+# Local model/cache artifacts
+.cache/
+
+# Unrelated coursework PDFs
+/data/raw/Microservices_and_FastAPI_Notes.pdf
+/data/raw/Polyglot_Gateway_Spring_Boot_Practical.pdf
